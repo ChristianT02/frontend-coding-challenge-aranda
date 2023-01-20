@@ -1,0 +1,17 @@
+@import "../../../assets/scss/style.scss";
+
+.imgHead {
+  background-image: url(../../../assets/bcq.jpg);
+
+  @include for-xs {
+    height: 234px;
+  }
+
+  @include for-md {
+    height: 249px;
+  }
+
+  @include for-lg {
+    height: 416px;
+  }
+}

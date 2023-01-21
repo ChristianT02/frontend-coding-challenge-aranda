@@ -1,5 +1,13 @@
-.text {
-  text-transform: capitalize;
-  opacity: 1;
-  text-align: left;
+@import "../../assets/scss/style.scss";
+
+.textPrimary {
+  font-family: Monster Clubhouse, sans-serif;
+  letter-spacing: 1.15px;
+  @include colors;
+}
+
+.textSecondary {
+  font-family: Poppins, sans-serif;
+  letter-spacing: 0.86px;
+  @include colors;
 }

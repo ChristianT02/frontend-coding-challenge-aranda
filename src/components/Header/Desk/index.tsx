@@ -7,8 +7,12 @@ const HeaderDesk = () => {
   return (
     <header className="header">
       <div className="title">
-        <TextPrimary>Recipe</TextPrimary>
-        <TextSecondary>App</TextSecondary>
+        <TextPrimary color="primary" size={40} lineHeight={48}>
+          Recipe
+        </TextPrimary>
+        <TextSecondary color="secondary" size={30} lineHeight={46}>
+          App
+        </TextSecondary>
       </div>
       <div className="menuHead">
         <MenuDesk />

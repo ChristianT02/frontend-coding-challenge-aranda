@@ -8,8 +8,8 @@ const BannerHome = () => {
     <section className="section">
       <ImageHead />
       <div className="floatText">
-        <TextSecondary>Recetas</TextSecondary>
-        <TextPrimary>para todos</TextPrimary>
+        <TextSecondary color="white">Recetas</TextSecondary>
+        <TextPrimary color="white">para todos</TextPrimary>
       </div>
     </section>
   );

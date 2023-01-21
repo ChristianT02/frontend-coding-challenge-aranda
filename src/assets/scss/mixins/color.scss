@@ -1,0 +1,19 @@
+@import "../modules/vars.scss";
+
+@mixin colors {
+  &.primary-color {
+    color: $primary-color;
+  }
+
+  &.secondary-color {
+    color: $secondary-color;
+  }
+
+  &.black-color {
+    color: black;
+  }
+
+  &.white-color {
+    color: #ffffff;
+  }
+}

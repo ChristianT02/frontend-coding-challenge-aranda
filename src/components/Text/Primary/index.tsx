@@ -1,10 +1,14 @@
 import Text from "..";
-import "./index.scss";
 
-const TextPrimary = ({ children }: any) => {
+const TextPrimary = ({ children, color, size, lineHeight }: any) => {
   return (
-    <Text>
-      <span className="primary"> {children} </span>
+    <Text
+      classNameInitial="textPrimary"
+      size={size}
+      color={color}
+      lineHeight={lineHeight}
+    >
+      {children}
     </Text>
   );
 };

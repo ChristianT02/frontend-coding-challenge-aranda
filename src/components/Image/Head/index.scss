@@ -2,6 +2,9 @@
 
 .imgHead {
   background-image: url(../../../assets/bcq.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
   @include for-xs {
     height: 234px;

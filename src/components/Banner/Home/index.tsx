@@ -5,7 +5,7 @@ import "./index.scss";
 
 const BannerHome = () => {
   return (
-    <section className="section">
+    <section className="banner">
       <ImageHead />
       <div className="floatText">
         <TextSecondary color="white">Recetas</TextSecondary>

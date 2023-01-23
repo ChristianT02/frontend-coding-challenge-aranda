@@ -2,7 +2,7 @@ import "./index.scss";
 
 const MenuDesk = () => {
   return (
-    <ul>
+    <ul className="menuDesk">
       <li className="selected">Home</li>
       <li>Vegetarianos</li>
       <li>Platos Principales</li>

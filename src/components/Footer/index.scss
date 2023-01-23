@@ -1,13 +1,40 @@
+@import "../../assets/scss/style.scss";
+
 .footer {
   width: 100%;
   background: transparent linear-gradient(180deg, #c2e3f3 0%, #6aa3c1 100%) 0%
     0% no-repeat padding-box;
   box-shadow: 4px 6px 23px #a9a9a911;
   opacity: 1;
-  bottom: 0px;
-  position: absolute;
 
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  @include for-xs {
+    height: 70px;
+
+    .imgFooter {
+      width: 228px;
+      height: 106px;
+    }
+  }
+
+  @media (min-width: 429px) and (max-width: 768px) {
+    height: 115.65px;
+
+    .imgFooter {
+      width: 379px;
+      height: 175px;
+    }
+  }
+
+  @include for-lg {
+    height: 167px;
+
+    .imgFooter {
+      width: 536px;
+      height: 248px;
+    }
+  }
 }

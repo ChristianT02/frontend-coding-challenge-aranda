@@ -1,4 +1,5 @@
 import BannerHome from "./components/Banner/Home";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Recipes from "./components/Recipes";
 
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <BannerHome />
       <Recipes />
+      <Footer />
     </main>
   );
 }

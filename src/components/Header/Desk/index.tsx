@@ -2,7 +2,7 @@ import MenuDesk from "../../Menu/Desk";
 import TextPrimary from "../../Text/Primary";
 import TextSecondary from "../../Text/Secondary";
 import "./index.scss";
-
+import { ReactComponent as Home } from "../../../assets/icons/ic_home.svg";
 const HeaderDesk = () => {
   return (
     <header className="header">
@@ -16,6 +16,9 @@ const HeaderDesk = () => {
       </div>
       <div className="menuHead">
         <MenuDesk />
+      </div>
+      <div className="menuMobile">
+        <Home />
       </div>
     </header>
   );

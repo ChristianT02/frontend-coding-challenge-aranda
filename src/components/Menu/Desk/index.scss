@@ -22,5 +22,10 @@
     &.selected {
       color: $secondary-color;
     }
+
+    a {
+      @extend li;
+      text-decoration: none;
+    }
   }
 }

@@ -36,6 +36,10 @@
       height: 35px;
     }
   }
+  a {
+    text-decoration: none;
+    @extend li;
+  }
 
   @media (min-width: 768px) {
     display: none;

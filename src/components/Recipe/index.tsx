@@ -34,7 +34,7 @@ const Recipe = ({ item }: any) => {
         <div>
           <Star className="star" />
           <TextSecondary color="primary" size={26} lineHeight={39}>
-            5.0
+            {item?.healthScore}
           </TextSecondary>
         </div>
         <Heart className="heart" />
@@ -47,7 +47,7 @@ const Recipe = ({ item }: any) => {
             Tama&ntilde;o de la porci&oacute;n
           </TextPrimary>
           <TextSecondary color="primary" size={17} lineHeight={20}>
-            4 raciones
+            {item?.servings} raciones
           </TextSecondary>
         </div>
         <div>
@@ -56,16 +56,16 @@ const Recipe = ({ item }: any) => {
             Tiempo de preparaci&oacute;n
           </TextPrimary>
           <TextSecondary color="primary" size={17} lineHeight={20}>
-            10 minutos
+            {item?.readyInMinutes} minutos
           </TextSecondary>
         </div>
         <div>
           <Chef />
           <TextPrimary color="secondary" size={17} lineHeight={20}>
-            Dificultad
+            Me gustas
           </TextPrimary>
           <TextSecondary color="primary" size={17} lineHeight={20}>
-            f&aacute;cil
+            {item?.aggregateLikes}
           </TextSecondary>
         </div>
       </div>

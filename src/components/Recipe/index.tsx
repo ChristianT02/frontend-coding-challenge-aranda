@@ -15,7 +15,7 @@ const Recipe = ({ item }: any) => {
   const title2 = names[1];
 
   return (
-    <li className="recipe">
+    <div className="recipe">
       <div
         className="plate"
         style={{ backgroundImage: `url(${item.image})` }}
@@ -69,7 +69,7 @@ const Recipe = ({ item }: any) => {
           </TextSecondary>
         </div>
       </div>
-    </li>
+    </div>
   );
 };
 

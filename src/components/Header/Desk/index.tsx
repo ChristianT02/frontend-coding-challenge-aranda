@@ -17,7 +17,7 @@ const HeaderDesk = () => {
       <div className="menuHead">
         <MenuDesk />
       </div>
-      <div className="menuMobile">
+      <div className="menuMobileIcon">
         <Home />
       </div>
     </header>

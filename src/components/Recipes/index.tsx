@@ -8,12 +8,17 @@ const Recipes = () => {
 
   return (
     <section className="recipes">
-      <TextPrimary color="secondary" size={68} lineHeight={80}>
-        Nuevas Recetas
-      </TextPrimary>
-      <ul className="list">
+      <div className="recipes_title">
+        <TextPrimary color="secondary" size={68} lineHeight={80}>
+          Nuevas Recetas
+        </TextPrimary>
+      </div>
+
+      <ul className="scrolling-wrapper">
         {recipes.data.map((recipe: any) => (
-          <Recipe key={recipe.id} item={recipe} />
+          <li key={recipe.id} className="card">
+            <Recipe item={recipe} />
+          </li>
         ))}
       </ul>
     </section>

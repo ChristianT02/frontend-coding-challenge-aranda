@@ -11,12 +11,26 @@
   align-items: center;
   justify-content: space-around;
 
+  @media (max-width: 768px) {
+    .textfooter {
+      span {
+        font-size: 39px;
+      }
+    }
+  }
+
   @include for-xs {
     height: 70px;
 
     .imgFooter {
       width: 228px;
       height: 106px;
+    }
+
+    .textfooter {
+      span {
+        font-size: 23px;
+      }
     }
   }
 
